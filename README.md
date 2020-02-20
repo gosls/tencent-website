@@ -1,5 +1,8 @@
 # gosls组件使用说明
 
+* 该组件的功能：支持Serverless Framework的指定组件部署
+* 该组件对应的官方依赖地址：https://github.com/serverless-components/tencent-website
+
 Serverless Components有很多有趣的组件，在使用的时候也非常方便，但是有的时候我们yaml中有很多很多组件，我们只修改了一其中一个，执行的时候会全部都执行一次，这会浪费很多时间和经历，所以作为社区爱好者我推出了gosls系列。
 
 这一套组件的使用方法很简单，用户只需要把Serverless原有的组件名修改就好，例如tencent-scf组件，原有的格式是：
