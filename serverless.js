@@ -1,6 +1,6 @@
 const { Component } = require('@serverless/core')
 
-class GlobalVar extends Component {
+class TencentWebsite extends Component {
   getIndex() {
     const argument = process.argv
     for (let i = 0; i <= argument.length; i++) {
@@ -38,4 +38,4 @@ class GlobalVar extends Component {
   }
 }
 
-module.exports = GlobalVar
+module.exports = TencentWebsite
